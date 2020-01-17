@@ -113,3 +113,4 @@ def get_shading_debug(normal, SH):
     shading = np.matmul(sh_basis, SH)
     #shading = sh_basis*SH[0]
     return shading
+

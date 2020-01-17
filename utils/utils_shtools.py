@@ -42,3 +42,38 @@ def shtools_getSH(envMap, order=5):
     '''
     SH =  pyshtools.expand.SHExpandDH(envMap, sampling=2, lmax_calc=order, norm=4)
     return SH
+
+#---------------------------------------Juan Code------------------------------------------------------------
+def shtools_dense():
+
+    # Ring trajectory
+    num_pts=200
+    phi_in= 75
+
+    phi = np.empty(num_pts)
+    phi.fill(phi_in)
+
+    theta = np.arange(0, 360, 360 / num_pts)
+
+    #print (phi)
+    #print (theta)
+
+    #Compute SH coefficients
+    coeffs = []
+
+    for i in range(num_pts):
+        mat = pyshtools.expand.spharm_functions.spharm(2, phi[i], theta[i])
+        vec = shtools_matrix2vec(mat)
+
+        #print (mat.shape)
+        #print (mat)
+
+        #print (vec.shape)
+        #print (vec)
+        #print ("##################")
+
+        coeffs.append(vec)
+
+    print (len(coeffs))
+
+    return coeffs
