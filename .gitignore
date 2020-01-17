@@ -77,8 +77,8 @@ fabric.properties
 *.pyc
 *.sh
 log_test/
-result
-result_1024
+result/*
+result_1024/*
 
 
 
