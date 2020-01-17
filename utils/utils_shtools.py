@@ -55,25 +55,14 @@ def shtools_dense():
 
     theta = np.arange(0, 360, 360 / num_pts)
 
-    #print (phi)
-    #print (theta)
-
     #Compute SH coefficients
     coeffs = []
 
     for i in range(num_pts):
         mat = pyshtools.expand.spharm_functions.spharm(2, phi[i], theta[i])
         vec = shtools_matrix2vec(mat)
-
-        #print (mat.shape)
-        #print (mat)
-
-        #print (vec.shape)
-        #print (vec)
-        #print ("##################")
-
         coeffs.append(vec)
 
-    print (len(coeffs))
+    print ('SH coeffs: {0}'.format(len(coeffs)))
 
     return coeffs
