@@ -2,7 +2,7 @@
 ## <b>Deep Single-Image Portrait Relighting</b> [[Project Page]](http://zhhoper.github.io/dpr.html) <br>
 Hao Zhou, Sunil Hadap, Kalyan Sunkavalli, David W. Jacobs. In ICCV, 2019
 
-<p><img src="result/obama_00.jpg" width="120px" >
+<p><img src="samples/obama_00.jpg" width="120px" >
 <img src="samples/obama_01.jpg" width="120px" >
 <img src="samples/obama_02.jpg" width="120x" >
 <img src="samples/obama_03.jpg" width="120px" >
