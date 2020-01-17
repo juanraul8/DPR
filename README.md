@@ -2,21 +2,21 @@
 ## <b>Deep Single-Image Portrait Relighting</b> [[Project Page]](http://zhhoper.github.io/dpr.html) <br>
 Hao Zhou, Sunil Hadap, Kalyan Sunkavalli, David W. Jacobs. In ICCV, 2019
 
-<p><img src="samples/obama_00.jpg" width="120px" >
-<img src="samples/obama_01.jpg" width="120px" >
-<img src="samples/obama_02.jpg" width="120x" >
-<img src="samples/obama_03.jpg" width="120px" >
-<img src="samples/obama_04.jpg" width="120px" >
-<img src="samples/obama_05.jpg" width="120px" >
-<img src="samples/obama_06.jpg" width="120px" >
+<p><img src="samples/obama_00.jpg" width="110px" >
+<img src="samples/obama_01.jpg" width="110px" >
+<img src="samples/obama_02.jpg" width="110x" >
+<img src="samples/obama_03.jpg" width="110px" >
+<img src="samples/obama_04.jpg" width="110px" >
+<img src="samples/obama_05.jpg" width="110px" >
+<img src="samples/obama_06.jpg" width="110px" >
 </p>
-<p><img src="samples/light_00.png" width="120px" >
-<img src="samples/light_01.png" width="120px" >
-<img src="samples/light_02.png" width="120x" >
-<img src="samples/light_03.png" width="120px" >
-<img src="samples/light_04.png" width="120px" >
-<img src="samples/light_05.png" width="120px" >
-<img src="samples/light_06.png" width="120px" >
+<p><img src="samples/light_00.png" width="110px" >
+<img src="samples/light_01.png" width="110px" >
+<img src="samples/light_02.png" width="110x" >
+<img src="samples/light_03.png" width="110px" >
+<img src="samples/light_04.png" width="110px" >
+<img src="samples/light_05.png" width="110px" >
+<img src="samples/light_06.png" width="110px" >
 </p>
 
 ### Overview
